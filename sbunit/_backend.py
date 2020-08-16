@@ -1,13 +1,11 @@
-from abc import ABC, abstractmethod
-import unittest
-import os, sys
-import pandas as pd
-import numpy as np
-from bs4 import BeautifulSoup
+import os
 import typing
+import unittest
+from abc import ABC, abstractmethod
 
-import tellurium as te
-import phrasedml
+import numpy as np
+import pandas as pd
+from bs4 import BeautifulSoup
 
 
 class BackendBase(unittest.TestCase, ABC):
@@ -17,8 +15,6 @@ class BackendBase(unittest.TestCase, ABC):
     set of methods that must be implemented.
 
     """
-
-    __members__ = property(lambda self: self.__dir__())
 
     def __init__(self, methodName='runTest'):
         super().__init__(methodName=methodName)

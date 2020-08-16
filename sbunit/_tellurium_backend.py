@@ -1,16 +1,12 @@
-from abc import ABC, abstractmethod
-import tellurium as te
-import phrasedml
-import tesedml
-import numpy as np
+from abc import abstractmethod
+
 import pandas as pd
-from ._backend import BackendBase
-import tempfile
-import re
-import os
+import phrasedml
+import tellurium as te
 from lxml import etree
-from functools import wraps, reduce
-import sys
+
+from ._backend import BackendBase
+
 
 class TestCase(BackendBase):
 
