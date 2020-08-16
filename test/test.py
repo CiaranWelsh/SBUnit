@@ -261,7 +261,7 @@ class TelluriumBackendTests(TestCase):
         self.assertFalse(self.assertAllXLessEqualY(ser3, ser1))
 
 
-class SimpleModelTests(TestCase):
+class SimpleModelTest(TestCase):
 
     def model_name(self):
         return "SimpleModel"

@@ -1,0 +1,4 @@
+tellurium
+phrasedml
+pandas
+numpy
