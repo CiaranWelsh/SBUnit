@@ -1,6 +1,4 @@
 .idea
-docs/build
-build
 dist
 *.egg-info
 *.xml
