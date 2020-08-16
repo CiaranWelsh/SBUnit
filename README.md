@@ -4,4 +4,4 @@ SBUnit
 
 A prototype for unit testing in systems biology. 
 
-docs:  https://ciaranwelsh.github.io/SBUnit/.
+Docs are built but not live. Open "docs/index.html" locally. 
