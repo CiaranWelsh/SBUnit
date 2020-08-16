@@ -329,3 +329,13 @@ class SimpleModelTests(TestCase):
 
         self.assertAllXGreaterY(self.LowStim_timeseries["S1"], self.NoStim_timeseries["S1"])
         self.assertAllXLessY(self.LowStim_timeseries["S2"], self.NoStim_timeseries["S2"])
+
+    def test_high_stim(self):
+        """
+        Stimulate the network with small about of stim
+        Returns:
+
+        """
+
+        self.assertAllXGreaterY(self.HighStim_timeseries["S1"], self.LowStim_timeseries["S1"])
+        self.assertAllXLessY(self.HighStim_timeseries["S2"], self.LowStim_timeseries["S2"])
